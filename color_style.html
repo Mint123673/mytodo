@@ -1,0 +1,18 @@
+<html>
+
+<head>
+    <script type="application/javascript">
+        function draw() {
+            var ctx = document.getElementById('canvas').getContext('2d');
+            ctx.font = "48px serif";
+            ctx.strokeText("Hello world", 10, 50);
+        }
+    </script>
+</head>
+
+<body onload="draw();">
+    绘制文本
+    <canvas id="canvas" width="150" height="150"></canvas>
+</body>
+
+</html>
